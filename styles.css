@@ -1,0 +1,90 @@
+#primary article {
+    display:flex;
+    flex-direction:row;
+    /* justify-content:center; */
+    /* align-items:center; */
+    border-radius:1%;
+    text-align: center;
+}
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+#primary {
+    display: flex;
+    flex-direction:row; 
+    /* justify-content:center; */
+    /* align-items:center; */
+    align-content: end;
+    /* align-items:center; */
+    /* margin-left: 40.5vw; */
+    margin-bottom:2px;
+    height:min-content;
+    width:min-content;
+    padding: 5px;
+    border: 1px solid #a6a6a6;
+    
+}
+.h3 {
+    padding-left:25%;
+    text-align: center
+
+}
+li {
+    font-size:10px;
+}
+
+#form  {
+    display:flex;
+    width: fit-content;
+    /* width:300px; */
+    font-size: 10px;
+    display: inline-block;
+    flex-flow: column;
+}
+#password  div {
+   
+    text-align:end;
+}
+#form > label {
+    width:fit-content;
+}
+#button-1  {
+    background-color: #F0c14b;
+    width: 200px;
+}
+.secondary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.divider {
+    font-size:10px;
+    display:flex;
+    align-items:center;
+}
+.divider::before, .divider::after {
+    flex:1;
+    content: "   ";
+    padding: 3px;
+    background-color:darkgrey;
+    margin: 5px;
+}
+#button-2 {
+    display: flex;
+    flex-flow:column;
+    font-size:10px;
+    justify-content:center;
+    text-align:center;
+    background-color: lightgrey;
+    width: 200px
+}
+footer {
+   margin-top:0px;
+    text-align: center; 
+    font-size:10px;
+
+}
