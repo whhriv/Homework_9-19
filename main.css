@@ -1,19 +1,25 @@
-.primary article {
+#primary article {
     display:flex;
     flex-direction:row;
-    justify-content:center;
-    align-items:center;
+    /* justify-content:center; */
+    /* align-items:center; */
     border-radius:1%;
     text-align: center;
+}
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
 }
 #primary {
     display: flex;
     flex-direction:row; 
-    justify-content:center;
-    align-items:center;
+    /* justify-content:center; */
+    /* align-items:center; */
     align-content: end;
-    align-items:center;
-    margin-left: 40.5vw;
+    /* align-items:center; */
+    /* margin-left: 40.5vw; */
     margin-bottom:2px;
     height:min-content;
     width:min-content;
@@ -62,7 +68,7 @@ li {
 }
 .divider::before, .divider::after {
     flex:1;
-    content: '';
+    content: "   ";
     padding: 3px;
     background-color:darkgrey;
     margin: 5px;
@@ -73,7 +79,7 @@ li {
     font-size:10px;
     justify-content:center;
     text-align:center;
-    background-color: darkgrey;
+    background-color: lightgrey;
     width: 200px
 }
 footer {
