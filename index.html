@@ -7,17 +7,39 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <div class="primary">
+    <!-- <article id="primary"></article> -->
+    <article id="primary">
+    <div>
         <h3>Sign In</h3><br>
         <div>
 
         <form id="form">
             <label for="loginName">Email(phone or mobile accounts)</label><br>
-            <input type="text" id="login" value="Enter Email" columns="20"><br>
-            <label for="Password">Password<a href="#">    Forgot Password</a></label><br>
-            <input type="text" id="login" value="Enter Password" columns=10 ><br>
+            <input type="text" id="login" value="Enter Email" style="width: 200px"><br>
+            <label id="password" for="Password">Password<div><a id="passlnk" href="#">Forgot Password</a></div></label><br>
+            <input type="text" id="login" value="Enter Password" style="width: 200px"><br>
         </form>
+        <p><button id="button-1" type="Continue">Continue</button>
+        </p><p>
+            <li>
+                <a href="#">Need Help?</a>
+            </li>
+        </p>
         </div>
     </div>
+</article>
+<article class="secondary">
+    <div class="divider">New to amazon?</div>
+    <button id="button-2" type="Continue">Create your amazon account</button>
+</article>
+<footer><hr>
+    <div><p>
+    <a href="http://www.google.com">Conditions of Use</a>
+    <a href="http://www.google.com">Privacy Policy</a>
+    <a href="http://www.google.com">Help</a>
+    </p>
+    </div>
+    <p>&copy 1996-2020 Amazon Inc. or it's affiliates</p>
+</footer>
 </body>
 </html>
