@@ -1,0 +1,19 @@
+.primary {
+    margin: 250px;
+    margin-left:25%;
+    margin-right:25%;
+    height: 500px;
+    border: 1px solid #a9a9a9;
+    display: flex;
+    flex-flow:column;
+
+}
+.primary > h3 {
+    text-align:center;
+
+}
+
+#form  {
+    flex-flow: column;
+
+}
