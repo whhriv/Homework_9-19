@@ -35,7 +35,9 @@ body {
 li {
     font-size:10px;
 }
-
+img {
+    margin-bottom:5px;
+}
 #form  {
     display:flex;
     width: fit-content;
